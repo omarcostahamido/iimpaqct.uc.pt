@@ -1,0 +1,20 @@
+/* style.css */
+
+:root {
+  --viewWidth: 100;
+/*  on javascript then call // parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--viewWidth"));*/
+}
+
+body {
+	margin: 0;
+	background-color: transparent;
+}
+
+canvas {
+	width: 100vw;
+	height: calc(100vw*6/40);
+}
+
+div	{
+/*	height: 100vh;*/
+}
